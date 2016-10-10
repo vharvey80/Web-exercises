@@ -1,0 +1,82 @@
+﻿HTML {
+    opacity: 1.5;
+}
+
+body{
+	background-color: greenyellow;
+    opacity:1.5;
+	width: 900px;
+	margin-right:auto;
+	margin-left:auto;
+    margin-top:2%;
+}
+
+#entete
+{
+	background-color: lightgray;
+	padding-top:5px;
+	padding-bottom:5px;
+    font-family:Arial;
+    border-style:groove;
+    text-align:center;
+}
+
+.level1
+{
+    text-align:center;
+}
+
+#Titre
+{
+	text-align:center;
+    font-family:Arial;
+
+}
+
+#contenu
+{
+	background-color: gray;
+    border:double;
+    border-radius:10px;
+    border-width:5px;
+	padding-top:20px;
+	padding-bottom:20px;
+    padding-left:10px;
+    padding-right:10px;
+    font-family:Arial;
+    color:white;
+    text-align:center;
+    
+}
+
+	#contenu h2
+	{
+		font-weight: bold;
+	}
+
+#pied
+{
+	background-color: lightgray;
+	padding-top:5px;
+	padding-bottom:5px;
+    border-width:5px;
+    font-family:Arial;
+    border-style:groove;
+    text-align:center;
+    border-radius:10px;
+}
+
+#menu
+{
+    width :650px;
+    margin: auto;
+    border-radius:10px;
+
+}
+
+a.button
+{
+    color:greenyellow;
+    font-style:italic;
+}
+
