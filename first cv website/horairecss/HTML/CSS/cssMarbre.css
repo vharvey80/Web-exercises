@@ -1,0 +1,55 @@
+body
+{
+	background-image:url('../images/imagemarbre/marbrevert.jpg');
+	background-size: 100%;
+}
+
+.titre
+{
+	color:white;
+}
+
+.nom 
+{
+	color:silver;
+}
+
+.élève
+{
+	background-image:url('../images/imagemarbre/marbreblanc.jpg');
+	background-size:100%;
+	color:black;
+}
+
+.jour
+{
+	background-image:url('../images/imagemarbre/marbrerouge.jpg');
+	background-size: 100%;
+	color:black;
+}
+ .heure
+ {
+	background-image:url('../images/imagemarbre/marbrerouge.jpg');
+	background-size: 100%;
+	color:black;
+}
+
+.foncer
+{
+	background-image:url('../images/imagemarbre/marbrebleu.jpg');
+	background-size: 100%;
+	color:black;
+}
+
+.pale
+{
+	background-image:url('../images/imagemarbre/marbrenoir.jpg');
+	background-size: 100%;
+	color:white;
+}
+
+a:hover
+{
+	color:gold;
+}
+

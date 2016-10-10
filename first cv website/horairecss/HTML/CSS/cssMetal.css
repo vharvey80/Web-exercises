@@ -1,0 +1,53 @@
+body
+{
+	background-image:url('../images/imagemetal/fontmetal.jpg');
+	background-size: 100%;
+}
+
+.titre
+{
+	color:chocolate;
+}
+
+.nom 
+{
+	color:gold;
+}
+
+.élève
+{
+	background-image:url('../images/imagemetal/platine.jpg');
+	background-size: 100%;
+	color:white;
+}
+
+.jour
+{
+	background-image:url('../images/imagemetal/cuivre.jpg');
+	background-size: 100%;
+	color:white;
+}
+ .heure
+ {
+	background-image:url('../images/imagemetal/cuivre.jpg');
+	background-size: 100%;
+}
+
+.foncer
+{
+	background-image:url('../images/imagemetal/or3.jpg');
+	background-size: 100%;
+	color:white;
+}
+
+.pale
+{
+	background-image:url('../images/imagemetal/bronze.jpg');
+	background-size: 100%;
+	color:white;
+}
+
+a:hover
+{
+	color:gold;
+}

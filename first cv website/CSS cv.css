@@ -1,0 +1,467 @@
+
+
+html
+{
+
+
+	font-size:100%;
+	background-image:url('degrade.jpg');
+	background-size:100%;	
+	
+}
+
+body
+{
+
+
+  margin:4%;
+
+
+  padding:;
+
+
+  font-size:.95em;
+
+
+}
+
+.image
+{
+	opacity:0.2;
+	filter:alpha(opacity=20);
+	
+	
+}
+
+.image:hover
+{
+	opacity:0.99;
+	filter:alpha(opacity=99);
+}
+
+
+
+h1
+{
+
+
+  font-size:150%;
+  background-color:gainsboro; /*couleur de fond de l'en-tête*/
+  opacity:0.75;
+  filter:alpha(opacity=75);
+  color:black;
+  text-align:Right;
+  margin:1%;
+  padding:2%;
+  font-family:Tahoma;
+  border-style:outset;
+  border-color: black;
+  margin-right:0%;
+  margin-left:0%;
+  background-image:url('nom.jpg');
+  background-size:100%;
+  font-style:italic;
+  
+}
+
+h2 
+{
+ font-size:120%;
+  background-color:olivedrab; /*couleur de fond de l'en-tête*/
+  opacity:0.75;
+  filter:alpha(opacity=75);
+  color:black;
+  text-align:left;
+  font-family:Tahoma;
+  text-indent:5%;
+  font-style:italic;
+  width:;
+  
+  
+  
+}
+
+#photo 
+{
+ font-size:120%;
+  background-color:olivedrab; /*couleur de fond de l'en-tête*/
+  opacity:0.75;
+  filter:alpha(opacity=75);
+  color:black;
+  text-align:left;
+  font-family:Tahoma;
+  text-indent:5%;
+  font-style:italic;
+  width:40%;
+  
+  
+  
+}
+
+h3
+{
+	color:olivedrab;
+}
+
+.fin 
+{
+	text-align:left;
+}
+
+.titre
+{
+	 opacity:0.95;
+	 filter:alpha(opacity=95);
+} 
+
+#vinc
+{
+	position:absolute;
+	left:25.5%;
+	top:17.5%;
+		position:absolute;
+	margin-left:62%;
+	
+	
+	/* Rotate div */
+	transform:rotate(15deg);
+	-ms-transform:rotate(15deg); /* IE 9 */
+	-webkit-transform:rotate(15deg); /* Opera, Chrome, and Safari */
+	position:relative;
+animation:mymove 10s infinite;
+animation-delay:0s;
+
+/*Safari and Chrome*/
+-webkit-animation:mymove 8s infinite;
+-webkit-animation-delay:0s;
+}
+
+@keyframes mymove
+{
+from {left:0%;}
+to {left:26%;}
+}
+
+@-webkit-keyframes mymove /*Safari and Chrome*/
+{
+from {left:0%;}
+to {left:26%;}
+	
+}
+
+
+
+#tout
+{
+
+
+  width:79%;
+  background-color:;
+  opacity:0.55;
+  filter:alpha(opacity=55);
+/* permet à la couleur de fond du menu d'apparaître jusque dans le bas (même si menu est moins long que la partie du contenu) */
+  margin-right:auto;
+  margin-left:auto;
+
+
+}
+
+#bloc_menu
+{
+
+
+  float:left;  /* le menu doit apparaître à gauche */
+  width:12%;
+  color:white;
+  margin-left:-0.2%;
+  height:95%;
+  
+}
+
+
+
+
+
+
+
+
+#bloc_droit
+{
+
+
+  
+  
+}
+
+
+#contenu
+{
+
+
+  margin-left:13%; /*même largeur que le menu*/
+       /*pour ne pas que le contenu aille sous le menu */
+  margin-right:; /*même largeur que la section de droite*/
+  background-color:ghostwhite; /*si on ne spécifie pas de couleur pour le contenu alors c'est la couleur de la division "tout" qui s'appliquera */
+  color:black;
+  font-family:Tahoma;
+  text-align:Justify;
+  width:84.4%;
+  text-indent:1%;
+  padding-left:1%;
+  padding-right:1%;
+  border-style:outset;
+  border-color:black;
+  line-width:78%;
+  
+}
+
+#continuer
+{
+	position:absolute;
+	left:70%;
+	top:40%;
+	opacity:0.65;
+	filter:alpha(opacity=65);
+}
+
+#continueer
+{
+	position:absolute;
+	left:70%;
+	top:40%;
+	opacity:0.35;
+	filter:alpha(opacity=35);
+}
+
+#continueer:hover
+{
+	opacity:2.30;
+	filter:alpha(opacity=230);
+}
+
+#continuer:hover
+{
+	opacity:2.30;
+	filter:alpha(opacity=230);
+	
+}
+
+#vinc
+{
+	position:absolute;
+	margin-left:50%;
+}
+
+#contenu p
+{
+
+
+  /*important que la marge haut et bas soit à 0px sinon il y a une bande bleu pâle au début et à la fin du contenu */
+  padding-top:1%; /* pour avoir un espace entre les paragraphes */
+  padding-bottom: 1%;
+  text-indent:;
+  margin-right:;
+  
+}
+
+.email:hover, .email:active, .email:visited 
+{
+	color:purple;
+	
+}
+
+a img 
+{ 
+ border: none; 
+}
+
+/*section dans le bas du site*/
+#pied
+{
+
+
+  clear:both;
+	
+  height:25%;
+
+
+}
+
+#pied p
+{
+
+
+  right:;
+  padding:;
+  font-family:Tahoma;
+  border-style:outset;
+  margin-right:0%;
+  border-color:black;
+  background-color:gainsboro;
+  margin-top:2%;
+  width:;
+
+
+}
+
+#imagevincent
+{
+	opacity:0.85;
+  filter:alpha(opacity=85);
+  position:absolute;
+  margin-left:38%;
+  margin-top:7%;
+}
+
+#imagecegep
+{
+	margin-bottom:6%;
+}
+
+#imagevictor
+{
+	margin-bottom:;
+	margin-left:38%;
+	padding-top:-2%;
+}
+
+#imagevictor2
+{
+	margin-bottom:;
+	margin-left:-90%;
+	padding-top:-2%;
+}
+
+#tableau
+{
+	position:relative;
+	left:4%;
+}
+
+
+
+/*JAVASCRIPT*/
+*
+{
+
+
+  margin:;
+  padding:;
+
+
+}
+
+#menu1
+{
+
+
+  width:;
+  Height:;
+  margin:;
+  
+
+
+}
+
+
+
+.menu, .sousmenu
+{
+
+
+  text-align:Center;
+  
+  
+
+
+}
+
+.menu
+{
+
+
+  height:300%;
+  width:97.5%;
+  padding:2%;
+  background:;
+  color:white;
+  margin-top:-4%;
+  border-radius:15%;
+  line-height:300%;
+  font-size:90%;
+  
+  
+  
+
+
+}
+
+
+
+.sousmenu
+{
+
+
+  height:200%;
+  width:97.5%;
+  background:;
+  color:grey;
+   margin-bottom:4%;
+  padding:2%;
+  border-radius:15%;
+  line-height:200%;
+  margin-top:;
+  font-size:95%;
+
+
+}
+
+.menu a
+{
+
+
+  display:block;
+  width:100%;
+  height:100%;
+  color:ghostwhite;
+  font-family:tahoma;
+  font-size:90%;
+  font-weight:Normal;
+  text-decoration:underline;
+  background:Black;
+	margin-top:5%;
+	border-radius:15%;
+	
+	
+
+}
+
+.sousmenu a
+{
+
+
+  display:block;
+  width:100%;
+  height:105%;
+  color:Black;
+  font-family:tahoma;
+  font-size:12px;
+  font-weight:Normal;
+  text-decoration:none;
+  background:white;
+  border-radius:15%;
+  font-size:80%;
+
+
+}
+
+.sousmenu a:hover, .sousmenu a:active, .sousmenu a:focus
+{
+
+
+  background:olivedrab;
+  text-decoration:underline;
+
+
+}
+

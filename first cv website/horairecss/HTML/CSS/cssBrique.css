@@ -1,0 +1,59 @@
+body
+{
+	background-image:url('../images/imagebrique/beton.jpg');
+	background-size: 100%;
+}
+
+.titre
+{
+	color:gold;
+}
+
+.nom 
+{
+	color:#400000;
+}
+
+.élève
+{
+	background-image:url('../images/imagebrique/briquebeige.jpg');
+	background-size: 100%;
+	color:black;
+}
+
+.jour
+{
+	background-image:url('../images/imagebrique/briquetradition.jpg');
+	background-size: 100%;
+	color:black;
+}
+ .heure
+ {
+	background-image:url('../images/imagebrique/briquetradition.jpg');
+	background-size: 100%;
+	color:black;
+}
+
+.foncer
+{
+	background-image:url('../images/imagebrique/briquegrise.jpg');
+	background-size: 100%;
+	color:black;
+}
+
+.pale
+{
+	background-image:url('../images/imagebrique/briqueroche.jpg');
+	background-size: 100%;
+	color:white;
+}
+
+a:hover
+{
+	color:gold;
+}
+
+h2:hover
+{
+	color:white
+}
